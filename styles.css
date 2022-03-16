@@ -13,6 +13,19 @@ h3 {
     font-weight: bold;
 }
 
+.post-it {
+    box-shadow: 0 8px 6px -6px black;
+    list-style: none;
+   
+}
+
+#annachan {
+    background-color: #E0EA87;
+    list-style: none;
+    height: 200px;
+    width: 200px;
+    transform: rotate(10deg);
+}
 
 
 .dashboard-frame {
@@ -63,13 +76,6 @@ h3 {
 /***************************************************/
 /* SELECTORS */
 /***************************************************/
-.post-it {
-    background-color: #E0EA87;
-    list-style: none;
-    height: 200px;
-    width: 200px;
-    transform: rotate(10deg);
-}
 
 /***************************************************/
 /* MIXED */
