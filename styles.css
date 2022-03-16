@@ -16,6 +16,12 @@ h3 {
 .post-it {
     box-shadow: 0 8px 6px -6px black;
     list-style: none;
+    background-color: #0089BA;
+    transform: rotate(-10deg);
+    height: 200px;
+    aspect-ratio: 1;
+    text-align: center;
+    font-size: 12.5px;
 }
 
 .dashboard-frame {
