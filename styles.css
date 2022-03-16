@@ -24,6 +24,10 @@ h3 {
     font-size: 12.5px;
 }
 
+#bellacopland {
+  background-color: #e0ea87;
+}
+
 .dashboard-frame {
   background-image: url('wood-texture.jpeg');
   height: 100vh;
