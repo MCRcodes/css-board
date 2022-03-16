@@ -28,6 +28,15 @@ h3 {
     font-size: 12.5px;
 }
 
+#annachan {
+    background-color: #E0EA87;
+    list-style: none;
+    height: 200px;
+    width: 200px;
+    transform: rotate(10deg);
+}
+
+
 .dashboard-frame {
   background-image: url('wood-texture.jpeg');
   height: 100vh;
