@@ -1,0 +1,113 @@
+/***************************************************/
+/* GENERAL STYLING */
+/***************************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.post-it {
+    box-shadow: 0 8px 6px -6px black;
+    list-style: none;
+}
+
+.dashboard-frame {
+    background-image: url("wood-texture.jpeg");
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-area {
+    height: calc(100% - 40px);
+    width: calc(100% - 40px);
+    background: radial-gradient(#127658, #052821);
+    box-shadow: inset 0 0 10px #000000;
+    overflow: auto;
+    display: grid;
+    grid-template-rows: 0.5fr repeat(2, 1fr);
+}
+
+.dashboard--heading {
+    text-align: center;
+    align-self: center;
+    color: #fff;
+    font-size: 3rem;
+    transform: rotate(-2deg);
+}
+
+
+.dashboard--selectors, .dashboard--properties, .dashboard--layouts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashboard--selectors h2, .dashboard--properties h2, .dashboard--layouts h2 {
+    color: #fff;
+    border-bottom: 1px dashed #fff;
+    width: 150px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    transform: rotate(-2.5deg);
+    margin: 30px 0;
+}
+
+/***************************************************/
+/* SELECTORS */
+/***************************************************/
+
+
+
+/***************************************************/
+/* MIXED */
+/***************************************************/
+
+
+/***************************************************/
+/* LAYOUTS */
+/***************************************************/
+
+
+/***************************************************/
+/* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
+/***************************************************/
+
+
+@media screen and (min-width: 768px) {
+    .dashboard-area {
+        display: grid;
+        grid-template-rows: 0.5fr repeat(2, 1fr);
+        grid-template-areas:
+            "Heading Heading Heading"
+            "Selectors Properties Layouts"
+            "Selectors Properties Layouts"
+        ;
+    }
+
+    .dashboard--heading{
+        grid-area: Heading;
+    }
+
+    .dashboard--selectors{
+        grid-area: Selectors;
+    }
+
+    .dashboard--properties{
+        grid-area: Properties;
+    }
+
+    .dashboard--layouts{
+        grid-area: Layouts;
+    }
+}
