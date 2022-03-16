@@ -16,6 +16,10 @@ h3 {
 .post-it {
     box-shadow: 0 8px 6px -6px black;
     list-style: none;
+    height: 200px;
+    width: 200px;
+    background-color:#FF6F91;
+    transform: rotate(10deg);
     background-color: #0089BA;
     transform: rotate(-10deg);
     height: 200px;
