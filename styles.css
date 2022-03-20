@@ -16,21 +16,8 @@ h3 {
 .post-it {
   box-shadow: 0 8px 6px -6px black;
   list-style: none;
-}
-
-.post-it {
-    box-shadow: 0 8px 6px -6px black;
-    list-style: none;
-    height: 200px;
-    width: 200px;
-    background-color:#FF6F91;
-    transform: rotate(10deg);
-    background-color: #0089BA;
-    transform: rotate(-10deg);
-    height: 200px;
-    aspect-ratio: 1;
-    text-align: center;
-    font-size: 12.5px;
+  font-size: 12.5px;
+  text-align: center;
 }
 
 .dashboard-frame {
@@ -96,13 +83,14 @@ h3 {
     background-color: #E0EA87;
     height: 200px;
     width: 200px;
-    transform: rotate(10deg);
+    transform: rotate(-10deg);
 }
 
 #bellacopland {
   background-color: #e0ea87;
   height: 200px;
   width: 200px;
+  transform: rotate(-15deg);
 }
 
 #annachan {
@@ -153,6 +141,14 @@ h3 {
   background-color: #0089ba;
   transform: rotate(-10deg);
 }
+
+#khadra {
+  height: 200px;
+  width: 200px;
+  background-color: #0089ba;
+  transform: rotate(-15deg);
+}
+
 
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
