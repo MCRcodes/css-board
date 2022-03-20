@@ -180,7 +180,24 @@ h3 {
     grid-area: Properties;
   }
 
+    .dashboard--layouts{
+        grid-area: Layouts;
+    }
+}
+h3 { 
+    font-weight: bold;
+}
+ 
+#khadra { 
+    background-color: #0089BA;
+}
+.post-it { 
+    aspect-ratio: 1.1;
+    height: 200px;
+    transform: rotate(1deg);  
+}
+
   .dashboard--layouts {
     grid-area: Layouts;
   }
-}
+
