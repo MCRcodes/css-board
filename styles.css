@@ -16,6 +16,10 @@ h3 {
 .post-it {
     box-shadow: 0 8px 6px -6px black;
     list-style: none;
+    height: 200px;
+    width: 200px;
+    background-color:#FF6F91;
+    transform: rotate(10deg);
     background-color: #0089BA;
     transform: rotate(-10deg);
     height: 200px;
@@ -24,9 +28,21 @@ h3 {
     font-size: 12.5px;
 }
 
+
 #bellacopland {
   background-color: #e0ea87;
 }
+
+
+#annachan {
+    background-color: #E0EA87;
+    list-style: none;
+    height: 200px;
+    width: 200px;
+    transform: rotate(10deg);
+}
+
+
 
 .dashboard-frame {
   background-image: url('wood-texture.jpeg');
@@ -80,9 +96,49 @@ h3 {
 /* SELECTORS */
 /***************************************************/
 
+#Matt {
+    height: 200px;
+    background-color: #e0ea87;
+    transform: rotate(10deg);
+    aspect-ratio: 1 / 1;
+    
+
+}
+
+.post-it {
+    background-color: #e0ea87;
+    transform: rotate(10deg);
+    aspect-ratio: 1 / 1;
+}
+#Emma {
+    background-color: #E0EA87;
+    height: 200px;
+    width: 200px;
+    transform: rotate(10deg);
+}
+h3 {
+    font-weight: bold;
+
+}
+
+
 /***************************************************/
 /* MIXED */
 /***************************************************/
+.post-it {
+    height: 200px;
+    background-color: #ff6f91;
+    transform: rotate(10deg);
+    padding: 50px;
+    margin: 30px;
+    aspect-ratio: 1;
+}
+
+.post-it h3 {
+    font-weight: bold;
+    text-align:center;
+    margin-bottom: 10px;
+}
 
 /***************************************************/
 /* LAYOUTS */
