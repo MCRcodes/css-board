@@ -72,6 +72,18 @@ h3 {
 /* SELECTORS */
 /***************************************************/
 
+#tom-haynes {
+    height: 200px;
+    width: 250px;
+    background-color: #E0EA87;
+    transform: rotate(10deg);
+    padding: 0.5rem;
+}
+
+#tom-haynes h3 {
+    font-weight: bold;
+}
+
 #Matt {
     height: 200px;
     background-color: #e0ea87;
