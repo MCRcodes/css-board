@@ -14,6 +14,11 @@ h3 {
 }
 
 .post-it {
+  box-shadow: 0 8px 6px -6px black;
+  list-style: none;
+}
+
+.post-it {
     box-shadow: 0 8px 6px -6px black;
     list-style: none;
     height: 200px;
@@ -27,15 +32,6 @@ h3 {
     text-align: center;
     font-size: 12.5px;
 }
-
-#annachan {
-    background-color: #E0EA87;
-    list-style: none;
-    height: 200px;
-    width: 200px;
-    transform: rotate(10deg);
-}
-
 
 .dashboard-frame {
   background-image: url('wood-texture.jpeg');
@@ -89,9 +85,51 @@ h3 {
 /* SELECTORS */
 /***************************************************/
 
+#Matt {
+    height: 200px;
+    background-color: #e0ea87;
+    transform: rotate(10deg);
+    aspect-ratio: 1 / 1;
+}
+
+#Emma {
+    background-color: #E0EA87;
+    height: 200px;
+    width: 200px;
+    transform: rotate(10deg);
+}
+
+#bellacopland {
+  background-color: #e0ea87;
+  height: 200px;
+  width: 200px;
+}
+
+#annachan {
+    background-color: #E0EA87;
+    list-style: none;
+    height: 200px;
+    width: 200px;
+    transform: rotate(10deg);
+}
+
 /***************************************************/
 /* MIXED */
 /***************************************************/
+
+#Lyndsey {
+  height: 200px;
+  width: 200px;
+  transform: rotate(15deg);
+  background-color: #FF6F91;
+}
+
+#Maisie {
+  height: 200px;
+  width: 200px;
+  transform: rotate(-10deg);
+  background-color: #FF6F91;
+}
 
 /***************************************************/
 /* LAYOUTS */
@@ -107,6 +145,13 @@ h3 {
 
 #sara-cook > h3 {
   font-size: 25px;
+}
+
+#RyanSmillie {
+  height: 200px;
+  width: 200px;
+  background-color: #0089ba;
+  transform: rotate(-10deg);
 }
 
 /***************************************************/
