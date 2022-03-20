@@ -3,82 +3,151 @@
 /***************************************************/
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    font-weight: normal;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  font-weight: normal;
 }
 
 h3 {
-    font-weight: bold;
-    font-size: 25px;
-    }
-
+  font-weight: bold;
+}
 
 .post-it {
-    box-shadow: 0 8px 6px -6px black;
-    list-style: none;
+  box-shadow: 0 8px 6px -6px black;
+  list-style: none;
+  font-size: 12.5px;
+  text-align: center;
 }
 
 .dashboard-frame {
-    background-image: url("wood-texture.jpeg");
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-image: url('wood-texture.jpeg');
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .dashboard-area {
-    height: calc(100% - 40px);
-    width: calc(100% - 40px);
-    background: radial-gradient(#127658, #052821);
-    box-shadow: inset 0 0 10px #000000;
-    overflow: auto;
-    display: grid;
-    grid-template-rows: 0.5fr repeat(2, 1fr);
+  height: calc(100% - 40px);
+  width: calc(100% - 40px);
+  background: radial-gradient(#127658, #052821);
+  box-shadow: inset 0 0 10px #000000;
+  overflow: auto;
+  display: grid;
+  grid-template-rows: 0.5fr repeat(2, 1fr);
 }
 
 .dashboard--heading {
-    text-align: center;
-    align-self: center;
-    color: #fff;
-    font-size: 3rem;
-    transform: rotate(-2deg);
+  text-align: center;
+  align-self: center;
+  color: #fff;
+  font-size: 3rem;
+  transform: rotate(-2deg);
 }
 
-
-.dashboard--selectors, .dashboard--properties, .dashboard--layouts {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.dashboard--selectors,
+.dashboard--properties,
+.dashboard--layouts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.dashboard--selectors h2, .dashboard--properties h2, .dashboard--layouts h2 {
-    color: #fff;
-    border-bottom: 1px dashed #fff;
-    width: 150px;
-    padding: 0.5rem;
-    font-size: 1.2rem;
-    text-align: center;
-    transform: rotate(-2.5deg);
-    margin: 30px 0;
+.dashboard--selectors h2,
+.dashboard--properties h2,
+.dashboard--layouts h2 {
+  color: #fff;
+  border-bottom: 1px dashed #fff;
+  width: 150px;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  transform: rotate(-2.5deg);
+  margin: 30px 0;
 }
 
 /***************************************************/
 /* SELECTORS */
 /***************************************************/
 
+#Matt {
+    height: 200px;
+    background-color: #e0ea87;
+    transform: rotate(10deg);
+    aspect-ratio: 1 / 1;
+}
 
+#Emma {
+    background-color: #E0EA87;
+    height: 200px;
+    width: 200px;
+    transform: rotate(-10deg);
+}
+
+#bellacopland {
+  background-color: #e0ea87;
+  height: 200px;
+  width: 200px;
+  transform: rotate(-15deg);
+}
+
+#annachan {
+    background-color: #E0EA87;
+    list-style: none;
+    height: 200px;
+    width: 200px;
+    transform: rotate(10deg);
+}
 
 /***************************************************/
 /* MIXED */
 /***************************************************/
 
+#Lyndsey {
+  height: 200px;
+  width: 200px;
+  transform: rotate(15deg);
+  background-color: #FF6F91;
+}
+
+#Maisie {
+  height: 200px;
+  width: 200px;
+  transform: rotate(-10deg);
+  background-color: #FF6F91;
+}
 
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
+
+/*Sara Cook*/
+#sara-cook {
+  height: 200px;
+  width: 200px;
+  background-color: #0089ba;
+  transform: rotate(10deg);
+}
+
+#sara-cook > h3 {
+  font-size: 25px;
+}
+
+#RyanSmillie {
+  height: 200px;
+  width: 200px;
+  background-color: #0089ba;
+  transform: rotate(-10deg);
+}
+
+#khadra {
+  height: 200px;
+  width: 200px;
+  background-color: #0089ba;
+  transform: rotate(-15deg);
+}
 
 
 /***************************************************/
@@ -96,31 +165,46 @@ h3 {
     font-size: 25px;
 }
 
-
 @media screen and (min-width: 768px) {
-    .dashboard-area {
-        display: grid;
-        grid-template-rows: 0.5fr repeat(2, 1fr);
-        grid-template-areas:
-            "Heading Heading Heading"
-            "Selectors Properties Layouts"
-            "Selectors Properties Layouts"
-        ;
-    }
+  .dashboard-area {
+    display: grid;
+    grid-template-rows: 0.5fr repeat(2, 1fr);
+    grid-template-areas:
+      'Heading Heading Heading'
+      'Selectors Properties Layouts'
+      'Selectors Properties Layouts';
+  }
 
-    .dashboard--heading{
-        grid-area: Heading;
-    }
+  .dashboard--heading {
+    grid-area: Heading;
+  }
 
-    .dashboard--selectors{
-        grid-area: Selectors;
-    }
+  .dashboard--selectors {
+    grid-area: Selectors;
+  }
 
-    .dashboard--properties{
-        grid-area: Properties;
-    }
+  .dashboard--properties {
+    grid-area: Properties;
+  }
 
     .dashboard--layouts{
         grid-area: Layouts;
     }
 }
+h3 { 
+    font-weight: bold;
+}
+ 
+#khadra { 
+    background-color: #0089BA;
+}
+.post-it { 
+    aspect-ratio: 1.1;
+    height: 200px;
+    transform: rotate(1deg);  
+}
+
+  .dashboard--layouts {
+    grid-area: Layouts;
+  }
+
