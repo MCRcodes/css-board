@@ -1,11 +1,12 @@
 /***************************************************/
 /* GENERAL STYLING */
+/* Please do not change ^_^ */
 /***************************************************/
 
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: normal;
 }
 
@@ -21,7 +22,7 @@ h3 {
 }
 
 .dashboard-frame {
-  background-image: url('wood-texture.jpeg');
+  background-image: url("wood-texture.jpeg");
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -40,6 +41,7 @@ h3 {
 }
 
 .dashboard--heading {
+  margin-top: 30px;
   text-align: center;
   align-self: center;
   color: #fff;
@@ -64,127 +66,49 @@ h3 {
   padding: 0.5rem;
   font-size: 1.2rem;
   text-align: center;
-  transform: rotate(-2.5deg);
   margin: 30px 0;
+}
+
+.dashboard--selectors h2 {
+  transform: rotate(-2.5deg);
+}
+
+.dashboard--properties h2 {
+  transform: rotate(3deg);
+}
+
+.dashboard--layouts h2 {
+  transform: rotate(-1.5deg);
 }
 
 /***************************************************/
 /* SELECTORS */
 /***************************************************/
-
-#tom-haynes {
-    height: 200px;
-    width: 250px;
-    background-color: #E0EA87;
-    transform: rotate(10deg);
-    padding: 0.5rem;
-}
-
-#tom-haynes h3 {
-    font-weight: bold;
-}
-
-#Matt {
-    height: 200px;
-    background-color: #e0ea87;
-    transform: rotate(10deg);
-    aspect-ratio: 1 / 1;
-}
-
-#Emma {
-    background-color: #E0EA87;
-    height: 200px;
-    width: 200px;
-    transform: rotate(-10deg);
-}
-
-#bellacopland {
-  background-color: #e0ea87;
-  height: 200px;
-  width: 200px;
-  transform: rotate(-15deg);
-}
-
-#annachan {
-    background-color: #E0EA87;
-    list-style: none;
-    height: 200px;
-    width: 200px;
-    transform: rotate(10deg);
-}
+/* Put Selector post-it styles here! ↓ */
 
 /***************************************************/
-/* MIXED */
+/* PROPERTIES */
 /***************************************************/
-
-#Lyndsey {
-  height: 200px;
-  width: 200px;
-  transform: rotate(15deg);
-  background-color: #FF6F91;
-}
-
-#Maisie {
-  height: 200px;
-  width: 200px;
-  transform: rotate(-10deg);
-  background-color: #FF6F91;
-}
+/* Put Property post-it styles here! ↓ */
 
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
-
-/*Sara Cook*/
-#sara-cook {
-  height: 200px;
-  width: 200px;
-  background-color: #0089ba;
-  transform: rotate(10deg);
-}
-
-#sara-cook > h3 {
-  font-size: 25px;
-}
-
-#RyanSmillie {
-  height: 200px;
-  width: 200px;
-  background-color: #0089ba;
-  transform: rotate(-10deg);
-}
-
-#khadra {
-  height: 200px;
-  width: 200px;
-  background-color: #0089ba;
-  transform: rotate(-15deg);
-}
-
+/* Put Layout post-it styles here! ↓ */
 
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
+/* Please do not change ^_^ */
 /***************************************************/
-#Luke {
-    height: 200px;
-    width: 200px;
-    background-color: #0089ba;
-    transform: rotate(-10deg);
-    }
-
-#Luke > h3 {
-    font-weight: bold;
-    font-size: 25px;
-}
 
 @media screen and (min-width: 768px) {
   .dashboard-area {
     display: grid;
     grid-template-rows: 0.5fr repeat(2, 1fr);
     grid-template-areas:
-      'Heading Heading Heading'
-      'Selectors Properties Layouts'
-      'Selectors Properties Layouts';
+      "Heading Heading Heading"
+      "Selectors Properties Layouts"
+      "Selectors Properties Layouts";
   }
 
   .dashboard--heading {
@@ -199,24 +123,7 @@ h3 {
     grid-area: Properties;
   }
 
-    .dashboard--layouts{
-        grid-area: Layouts;
-    }
-}
-h3 { 
-    font-weight: bold;
-}
- 
-#khadra { 
-    background-color: #0089BA;
-}
-.post-it { 
-    aspect-ratio: 1.1;
-    height: 200px;
-    transform: rotate(1deg);  
-}
-
   .dashboard--layouts {
     grid-area: Layouts;
   }
-
+}
