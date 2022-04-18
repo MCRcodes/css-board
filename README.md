@@ -12,9 +12,23 @@ It’s likely this process will involve some 🚨**conflicts**🚨, so we can al
 
 ---
 
-<br>
+<br/>
 
-## Instructions
+## Tutor Setup Instructions
+
+**NB: This step is for course tutors only. If you're a student then you don't need to perform this step.**
+
+Before starting this exercise please create a new branch from `main`.
+
+Name it after the cohort that's doing the exercise, eg. `jan-22`
+
+Students will commit to the new branch, keeping the `main` branch sparkly clean for future use ✨
+
+---
+
+<br/>
+
+## Student Instructions
 
 ### 1. Setup
 
@@ -32,8 +46,8 @@ It’s likely this process will involve some 🚨**conflicts**🚨, so we can al
 ### 2. Creating the HTML
 
 - In the correct section of the html document, create a new `li` list element.
-- Give the new li element the **class “post-it”** and an **id of your name**.
-- Inside of your new li element, add:
+- Give the new `li` element the **class “post-it”** and an **id of your name**.
+- Inside of your new `li` element, add:
   - A `h3` heading containing the name of the **CSS topic** assigned to you.
   - A `p` paragraph containing a **short description** of your CSS topic.
 
