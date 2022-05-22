@@ -20,9 +20,14 @@ It’s likely this process will involve some 🚨**conflicts**🚨, so we can al
 
 Before starting this exercise please create a new branch from `main`.
 
-Name it after the cohort that's doing the exercise, eg. `jan-22`
+Name it after the cohort that's doing the exercise, eg. `may-22`
 
 Students will commit to the new branch, keeping the `main` branch sparkly clean for future use ✨
+
+At the start of the exercise students will need to be given access to the repo:
+- Share the branch link, and ask students to provide their GitHub usernames
+- In the repo, go to Settings > Collaborators & Teams > Add People. Add each student by their username (or email) with Write access.
+- Added students will receive invitations to their email inbox. Each student will need to accept their invite before they can push to the repo.
 
 ---
 
