@@ -125,7 +125,12 @@ h3{font-weight: bold;}
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
-
+#agnes-beviz {
+  transform: rotate(10deg);
+  background-color: #FF6F91;
+  height: 200px;
+  aspect-ratio: 1/1;
+}
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
