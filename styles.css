@@ -97,6 +97,16 @@ h3 {
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
 
+#flex {
+  background-color: #0089BA;
+  height:200px;
+  width:200px;
+  transform: rotate(-4deg);
+}
+
+#flex h3{
+  font-weight:bold;
+}
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
 /* Please do not change ^_^ */
