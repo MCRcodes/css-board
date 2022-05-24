@@ -91,6 +91,12 @@ h3 {
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
+#Andy {
+ aspect-ratio: 1/1;
+ height: 200px;
+ background-color: #E0EA87;
+ transform: rotate(-10deg);
+}
 #Suzannah {
   aspect-ratio: 1/1;
   height: 200px;
