@@ -86,7 +86,15 @@ h3 {
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
-
+#will-hodgkinson {
+  background-color: #E0EA87;
+  rotate: -10deg;
+  aspect-ratio: 1/1;
+  height: 200px;
+}
+#will-hodgkinson h3 {
+  font-weight: strong;
+}
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
