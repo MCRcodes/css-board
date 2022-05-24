@@ -25,6 +25,7 @@ h3 {
   height: 200px;
   width: 200px;
   transform: rotate(-10deg);
+  aspect-ratio: 1:1;
 }
 
 .dashboard-frame {
@@ -107,7 +108,10 @@ h3 {
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
-
+#agnes-beviz {
+  background-color: #ff6f91;
+  transform: rotate(8deg);
+}
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
