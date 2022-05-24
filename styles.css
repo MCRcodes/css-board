@@ -12,6 +12,7 @@
 
 h3 {
   margin-bottom: 4px;
+  font-weight: bold;
 }
 
 .post-it {
@@ -20,6 +21,10 @@ h3 {
   text-align: center;
   padding: 10px;
   margin-bottom: 20px;
+  background-color: #ff6f91;
+  height: 200px;
+  width: 200px;
+  transform: rotate(-10deg);
 }
 
 .dashboard-frame {
@@ -86,6 +91,17 @@ h3 {
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
+#mike-shields {
+  font-size: .75rem;
+  aspect-ratio: 1;
+  width: 200px;
+  background: #E0EA87;
+  transform: rotateZ(-5deg);
+}
+
+#mike-shields h3 {
+  font-weight: bold;
+}
 
 /***************************************************/
 /* PROPERTIES */
@@ -96,6 +112,11 @@ h3 {
 /* LAYOUTS */
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
+.post-it{
+  height:200px;
+  aspect-ratio:  1 / 1;
+  transform: rotate(8deg);
+}
 
 #flex {
   background-color: #0089BA;
@@ -106,6 +127,14 @@ h3 {
 
 #flex h3{
   font-weight:bold;
+}
+
+.dashboard--layouts .post-it{
+  background-color: #0089BA;
+}
+
+h3 {
+  font-weight: bold;
 }
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
