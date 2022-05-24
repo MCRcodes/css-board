@@ -86,6 +86,17 @@ h3 {
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
+#mike-shields {
+  font-size: .75rem;
+  aspect-ratio: 1;
+  width: 200px;
+  background: #E0EA87;
+  transform: rotateZ(-5deg);
+}
+
+#mike-shields h3 {
+  font-weight: bold;
+}
 
 /***************************************************/
 /* PROPERTIES */
