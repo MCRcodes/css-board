@@ -21,12 +21,7 @@ h3 {
   text-align: center;
   padding: 10px;
   margin-bottom: 20px;
-  height: 200px;
-  width: 200px;
-  background-color: #0089BA;
-  transform: rotate(7deg);
-}
-
+  
 .dashboard-frame {
   background-image: url("wood-texture.jpeg");
   height: 100vh;
@@ -103,6 +98,8 @@ h3{font-weight: bold;}
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
+#Nicola-Giannotta { background-color:#FF6F91;}
+
 
 /***************************************************/
 /* LAYOUTS */
