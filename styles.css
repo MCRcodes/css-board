@@ -21,12 +21,10 @@ h3 {
   text-align: center;
   padding: 10px;
   margin-bottom: 20px;
-  background-color: #0089BA;
   height: 200px;
   width: 200px;
-  transform: rotate(-10deg);
-  aspect-ratio: 1:1;
-
+  background-color: #0089BA;
+  transform: rotate(7deg);
 }
 
 .dashboard-frame {
@@ -93,24 +91,11 @@ h3 {
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
-
-#mike-shields {
-  font-size: .75rem;
-  aspect-ratio: 1;
-  width: 200px;
-  background: #E0EA87;
-  transform: rotateZ(-5deg);
-}
-
-#mike-shields h3 {
-  font-weight: bold;
-  
 #Suzannah {
   aspect-ratio: 1/1;
   height: 200px;
   background-color: #E0EA87;
   transform: rotate(-7deg);
-
 }
 
 h3{font-weight: bold;}
@@ -118,15 +103,35 @@ h3{font-weight: bold;}
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
-#agnes-beviz {
-  background-color: #ff6f91;
-  transform: rotate(8deg);
-}
+
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
+.post-it{
+  height:200px;
+  aspect-ratio:  1 / 1;
+  transform: rotate(8deg);
+}
 
+#flex {
+  background-color: #0089BA;
+  height:200px;
+  width:200px;
+  transform: rotate(-4deg);
+}
+
+#flex h3{
+  font-weight:bold;
+}
+
+.dashboard--layouts .post-it{
+  background-color: #0089BA;
+}
+
+h3 {
+  font-weight: bold;
+}
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
 /* Please do not change ^_^ */
