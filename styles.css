@@ -20,6 +20,8 @@ h3 {
   text-align: center;
   padding: 10px;
   margin-bottom: 20px;
+  
+
 }
 
 .dashboard-frame {
@@ -86,11 +88,16 @@ h3 {
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
-
+h3 {font-weight: bold;}
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
+#Nicola-Giannotta { aspect-ratio: 1 / 1;
+height: 200px;
+background-color:#FF6F91;
+rotate: (-10deg);}
+
 
 /***************************************************/
 /* LAYOUTS */
