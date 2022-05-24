@@ -21,10 +21,12 @@ h3 {
   text-align: center;
   padding: 10px;
   margin-bottom: 20px;
-  background-color: #ff6f91;
+  background-color: #0089BA;
   height: 200px;
   width: 200px;
   transform: rotate(-10deg);
+  aspect-ratio: 1:1;
+
 }
 
 .dashboard-frame {
@@ -91,6 +93,7 @@ h3 {
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
+
 #mike-shields {
   font-size: .75rem;
   aspect-ratio: 1;
@@ -101,13 +104,24 @@ h3 {
 
 #mike-shields h3 {
   font-weight: bold;
+  
+#Suzannah {
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #E0EA87;
+  transform: rotate(-7deg);
+
 }
 
+h3{font-weight: bold;}
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
-
+#agnes-beviz {
+  background-color: #ff6f91;
+  transform: rotate(8deg);
+}
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
