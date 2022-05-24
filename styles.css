@@ -118,6 +118,17 @@ h3 {
   transform: rotate(8deg);
 }
 
+#flex {
+  background-color: #0089BA;
+  height:200px;
+  width:200px;
+  transform: rotate(-4deg);
+}
+
+#flex h3{
+  font-weight:bold;
+}
+
 .dashboard--layouts .post-it{
   background-color: #0089BA;
 }
