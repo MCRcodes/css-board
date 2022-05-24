@@ -38,7 +38,9 @@ At the start of the exercise students will need to be given access to the repo:
 ### 1. Setup
 
 - Clone this repo to your machine.
-- Create a new branch from the `main` branch, with your own name as the branch name:  
+- - Navigate to the branch for your cohort. For example, if your cohort is May 2022, the branch nale will be `may-22` and the command will be:
+  `git checkout may-22`
+- Next, create a new branch from your cohort branch, using your own name as the branch name:  
   `git checkout -b your-name`  
   where `your-name` is your name, eg. `freddie-mercury`. You can check which branch you're in using the command `git branch`.
 - Familiarise yourself with the project structure. Have a look at the HTML & CSS.
