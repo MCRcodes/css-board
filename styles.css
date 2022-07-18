@@ -96,6 +96,13 @@ h3 {
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
+
+#perry-baran {
+  aspect-ratio: 1;
+  height: 200px;
+  background-color: #E0EA87;
+  transform: rotate(-7deg);
+
 #craig-hughes{
   background-color: #e0ea87;
   rotate: 5deg;
