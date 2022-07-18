@@ -116,6 +116,20 @@ transform: rotate(-2.5deg);
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
+.post-it {
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #FF6F91;
+  transform: rotate(10deg); 
+}
+
+.h3 {
+ font-weight: bold;
+}
+
+
+
+
 
 #deryn {
   background-color: #FF6F91;
