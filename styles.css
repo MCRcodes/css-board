@@ -91,6 +91,13 @@ h3 {
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
 
+.post-it {
+  height: 200px;
+  background-color: #E0EA87;
+  aspect-ratio: 1/1;
+  transform: rotate(7deg);
+}
+
 
 
 
