@@ -141,12 +141,12 @@ h3 {
     grid-area: Layouts;
   }
 }
-.post-it{
+#cynthia-obayi{
   background-color: #FF6F91;
   aspect-ratio: 1/1;
   transform:rotate (8deg);
   height: 200px;
 }
-.post-it h3 {
+#cynthia-obayi h3 {
   font-weight: bold;
 }
