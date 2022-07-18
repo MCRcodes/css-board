@@ -19,8 +19,11 @@ h3 {
   box-shadow: 0 8px 6px -6px black;
   list-style: none;
   text-align: center;
+  width: 300px;
   padding: 10px;
   margin-bottom: 20px;
+  background-color: #0089ba
+
 }
   
 .dashboard-frame {
@@ -72,8 +75,9 @@ h3 {
 }
 
 .dashboard--selectors h2 {
-  transform: rotate(-2.5deg);
+transform: rotate(-2.5deg);
 }
+
 
 .dashboard--properties h2 {
   transform: rotate(3deg);
@@ -87,6 +91,22 @@ h3 {
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
+#krun-shergill {
+  aspect-ratio: 1 / 1;
+  background-color: #E0EA87;
+  height: 200px;
+  
+
+
+}
+
+
+.post-it {
+  height: 200px;
+  background-color: #E0EA87;
+  aspect-ratio: 1/1;
+  transform: rotate(7deg);
+}
 
 
 
@@ -96,6 +116,29 @@ h3 {
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
+
+#deryn {
+  background-color: #FF6F91;
+  aspect-ratio: 1/1;
+  height: 200px;
+  transform: rotate(8deg);
+}
+
+#perry-baran {
+  aspect-ratio: 1;
+  height: 200px;
+  background-color: #E0EA87;
+  transform: rotate(-7deg);
+
+#craig-hughes{
+  background-color: #e0ea87;
+  rotate: 5deg;
+  height: 200px;
+  aspect-ratio: 1/1;
+}
+#craig-hughes h3 {
+  font-weight: bold;
+}
 
 
   
