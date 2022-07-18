@@ -19,8 +19,11 @@ h3 {
   box-shadow: 0 8px 6px -6px black;
   list-style: none;
   text-align: center;
+  width: 300px;
   padding: 10px;
   margin-bottom: 20px;
+  background-color: #0089ba
+
 }
   
 .dashboard-frame {
