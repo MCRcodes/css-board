@@ -96,7 +96,12 @@ h3 {
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
-
+#perry-baran {
+  aspect-ratio: 1;
+  height: 200px;
+  background-color: #E0EA87;
+  transform: rotate(-7deg);
+}
 
   
 
