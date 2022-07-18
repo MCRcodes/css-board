@@ -139,7 +139,12 @@ h3 {
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
 
-
+#James-Smith {
+  background-color: #0089BA;
+  aspect-ratio: 1/1;
+  height: 200px;
+  transform: rotate(8deg);
+}
 
 
 
