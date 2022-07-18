@@ -17,11 +17,6 @@ h3 {
 }
 
 .post-it {
-  aspect-ratio: 1 / 1;
-  height: 200px;
-  transform: rotate(-10deg);
-  background-color: #e0ea87;
-
   box-shadow: 0 8px 6px -6px black;
   list-style: none;
   text-align: center;
@@ -93,7 +88,15 @@ h3 {
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
-
+#mark.post-it {
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  background-color: #e0ea87;
+  transform: rotate(-10deg);
+}
+#mark h3 {
+  font-weight: bold;
+}
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
