@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This challenge is designed give you a little taste of working on a project with other developers!
+This challenge is designed to give you a little taste of working on a project with other developers!
 
 Hopefully, whilst getting to flex your CSS skills, you can see the process of pulling down a shared repo, adding some content, and then pushing back up.
 
@@ -20,7 +20,7 @@ It’s likely this process will involve some 🚨**conflicts**🚨, so we can al
 
 Before starting this exercise please create a new branch from `main`.
 
-Name it after the cohort that's doing the exercise, eg. `may-22`
+Name it after the cohort that's doing the exercise, eg. `june-22`
 
 Students will commit to the new branch, keeping the `main` branch sparkly clean for future use ✨
 
@@ -38,7 +38,8 @@ At the start of the exercise students will need to be given access to the repo:
 ### 1. Setup
 
 - Clone this repo to your machine.
-- Create a new branch from the `main` branch, with your own name as the branch name:  
+- We've created a branch for your cohort. To access this, open a terminal in VS Code and run the command `git checkout june-22`
+- Create a new branch from the `june-22` branch, with your own name as the branch name:  
   `git checkout -b your-name`  
   where `your-name` is your name, eg. `freddie-mercury`. You can check which branch you're in using the command `git branch`.
 - Familiarise yourself with the project structure. Have a look at the HTML & CSS.
