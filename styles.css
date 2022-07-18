@@ -19,8 +19,11 @@ h3 {
   box-shadow: 0 8px 6px -6px black;
   list-style: none;
   text-align: center;
+  width: 300px;
   padding: 10px;
   margin-bottom: 20px;
+  background-color: #0089ba
+
 }
   
 .dashboard-frame {
@@ -104,6 +107,21 @@ h3 {
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
 
+#perry-baran {
+  aspect-ratio: 1;
+  height: 200px;
+  background-color: #E0EA87;
+  transform: rotate(-7deg);
+
+#craig-hughes{
+  background-color: #e0ea87;
+  rotate: 5deg;
+  height: 200px;
+  aspect-ratio: 1/1;
+}
+#craig-hughes h3 {
+  font-weight: bold;
+}
 
   
 
