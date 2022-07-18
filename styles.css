@@ -97,7 +97,12 @@ h3 {
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
 
-
+#deryn {
+  background-color: #FF6F91;
+  aspect-ratio: 1/1;
+  height: 200px;
+  transform: rotate(8deg);
+}
   
 
 
